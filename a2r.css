@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./bgr.png');
+    background-size: cover;
+    position: relative;
+}
+
+#title{
+    margin-top: 7%;
+    font-size: 2.2em;
+}
+
+.show{
+    font-size: 2.5em;
+    height: auto;
+    padding: 7px;
+}
+
+button{
+    padding: 5px 10px;
+    background: rgb(140, 140, 216);
+    color: white;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input{
+    padding: 3px 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#githubLink{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 10;
+    border-radius: 50%;
+    right: 15px;
+    top: 15px
+}
+#githubLink img{
+    width: 100%;
+}
+
+@media screen and (max-width: 680px){
+    #githubLink{
+        top: 85%;
+    }
+}
